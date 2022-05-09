@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/artyom_avtaykin/CLionProjects/xml
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/artyom_avtaykin/CLionProjects/xml_editor
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug
+-- Build files have been written to: /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug

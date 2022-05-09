@@ -3,6 +3,7 @@
 
 CMakeFiles/xml.dir/main.cpp.o: \
  ../main.cpp \
+ ../sqlite3.h \
  ../tinyxml2.h \
  ../xml_editor.h
 CMakeFiles/xml.dir/tinyxml2.cpp.o: \

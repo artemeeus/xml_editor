@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/artyom_avtaykin/CLionProjects/xml/main.cpp" "/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles/xml.dir/main.cpp.o"
-  "/Users/artyom_avtaykin/CLionProjects/xml/tinyxml2.cpp" "/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles/xml.dir/tinyxml2.cpp.o"
-  "/Users/artyom_avtaykin/CLionProjects/xml/xml_editor.cpp" "/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles/xml.dir/xml_editor.cpp.o"
+  "/Users/artyom_avtaykin/CLionProjects/xml_editor/db.cpp" "/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles/xml.dir/db.cpp.o"
+  "/Users/artyom_avtaykin/CLionProjects/xml_editor/main.cpp" "/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles/xml.dir/main.cpp.o"
+  "/Users/artyom_avtaykin/CLionProjects/xml_editor/tinyxml2.cpp" "/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles/xml.dir/tinyxml2.cpp.o"
+  "/Users/artyom_avtaykin/CLionProjects/xml_editor/xml_editor.cpp" "/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles/xml.dir/xml_editor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

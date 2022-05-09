@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/artyom_avtaykin/CLionProjects/xml
+CMAKE_SOURCE_DIR = /Users/artyom_avtaykin/CLionProjects/xml_editor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/xml.dir/depend.make
@@ -68,48 +68,62 @@ include CMakeFiles/xml.dir/flags.make
 
 CMakeFiles/xml.dir/main.cpp.o: CMakeFiles/xml.dir/flags.make
 CMakeFiles/xml.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xml.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xml.dir/main.cpp.o -c /Users/artyom_avtaykin/CLionProjects/xml/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xml.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xml.dir/main.cpp.o -c /Users/artyom_avtaykin/CLionProjects/xml_editor/main.cpp
 
 CMakeFiles/xml.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xml.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artyom_avtaykin/CLionProjects/xml/main.cpp > CMakeFiles/xml.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artyom_avtaykin/CLionProjects/xml_editor/main.cpp > CMakeFiles/xml.dir/main.cpp.i
 
 CMakeFiles/xml.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xml.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artyom_avtaykin/CLionProjects/xml/main.cpp -o CMakeFiles/xml.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artyom_avtaykin/CLionProjects/xml_editor/main.cpp -o CMakeFiles/xml.dir/main.cpp.s
 
 CMakeFiles/xml.dir/tinyxml2.cpp.o: CMakeFiles/xml.dir/flags.make
 CMakeFiles/xml.dir/tinyxml2.cpp.o: ../tinyxml2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xml.dir/tinyxml2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xml.dir/tinyxml2.cpp.o -c /Users/artyom_avtaykin/CLionProjects/xml/tinyxml2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xml.dir/tinyxml2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xml.dir/tinyxml2.cpp.o -c /Users/artyom_avtaykin/CLionProjects/xml_editor/tinyxml2.cpp
 
 CMakeFiles/xml.dir/tinyxml2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xml.dir/tinyxml2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artyom_avtaykin/CLionProjects/xml/tinyxml2.cpp > CMakeFiles/xml.dir/tinyxml2.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artyom_avtaykin/CLionProjects/xml_editor/tinyxml2.cpp > CMakeFiles/xml.dir/tinyxml2.cpp.i
 
 CMakeFiles/xml.dir/tinyxml2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xml.dir/tinyxml2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artyom_avtaykin/CLionProjects/xml/tinyxml2.cpp -o CMakeFiles/xml.dir/tinyxml2.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artyom_avtaykin/CLionProjects/xml_editor/tinyxml2.cpp -o CMakeFiles/xml.dir/tinyxml2.cpp.s
 
 CMakeFiles/xml.dir/xml_editor.cpp.o: CMakeFiles/xml.dir/flags.make
 CMakeFiles/xml.dir/xml_editor.cpp.o: ../xml_editor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xml.dir/xml_editor.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xml.dir/xml_editor.cpp.o -c /Users/artyom_avtaykin/CLionProjects/xml/xml_editor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xml.dir/xml_editor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xml.dir/xml_editor.cpp.o -c /Users/artyom_avtaykin/CLionProjects/xml_editor/xml_editor.cpp
 
 CMakeFiles/xml.dir/xml_editor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xml.dir/xml_editor.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artyom_avtaykin/CLionProjects/xml/xml_editor.cpp > CMakeFiles/xml.dir/xml_editor.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artyom_avtaykin/CLionProjects/xml_editor/xml_editor.cpp > CMakeFiles/xml.dir/xml_editor.cpp.i
 
 CMakeFiles/xml.dir/xml_editor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xml.dir/xml_editor.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artyom_avtaykin/CLionProjects/xml/xml_editor.cpp -o CMakeFiles/xml.dir/xml_editor.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artyom_avtaykin/CLionProjects/xml_editor/xml_editor.cpp -o CMakeFiles/xml.dir/xml_editor.cpp.s
+
+CMakeFiles/xml.dir/db.cpp.o: CMakeFiles/xml.dir/flags.make
+CMakeFiles/xml.dir/db.cpp.o: ../db.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/xml.dir/db.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xml.dir/db.cpp.o -c /Users/artyom_avtaykin/CLionProjects/xml_editor/db.cpp
+
+CMakeFiles/xml.dir/db.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xml.dir/db.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artyom_avtaykin/CLionProjects/xml_editor/db.cpp > CMakeFiles/xml.dir/db.cpp.i
+
+CMakeFiles/xml.dir/db.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xml.dir/db.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artyom_avtaykin/CLionProjects/xml_editor/db.cpp -o CMakeFiles/xml.dir/db.cpp.s
 
 # Object files for target xml
 xml_OBJECTS = \
 "CMakeFiles/xml.dir/main.cpp.o" \
 "CMakeFiles/xml.dir/tinyxml2.cpp.o" \
-"CMakeFiles/xml.dir/xml_editor.cpp.o"
+"CMakeFiles/xml.dir/xml_editor.cpp.o" \
+"CMakeFiles/xml.dir/db.cpp.o"
 
 # External object files for target xml
 xml_EXTERNAL_OBJECTS =
@@ -117,9 +131,10 @@ xml_EXTERNAL_OBJECTS =
 xml: CMakeFiles/xml.dir/main.cpp.o
 xml: CMakeFiles/xml.dir/tinyxml2.cpp.o
 xml: CMakeFiles/xml.dir/xml_editor.cpp.o
+xml: CMakeFiles/xml.dir/db.cpp.o
 xml: CMakeFiles/xml.dir/build.make
 xml: CMakeFiles/xml.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable xml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable xml"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xml.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -131,6 +146,6 @@ CMakeFiles/xml.dir/clean:
 .PHONY : CMakeFiles/xml.dir/clean
 
 CMakeFiles/xml.dir/depend:
-	cd /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/artyom_avtaykin/CLionProjects/xml /Users/artyom_avtaykin/CLionProjects/xml /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles/xml.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/artyom_avtaykin/CLionProjects/xml_editor /Users/artyom_avtaykin/CLionProjects/xml_editor /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles/xml.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/xml.dir/depend
 

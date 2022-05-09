@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/artyom_avtaykin/CLionProjects/xml
+CMAKE_SOURCE_DIR = /Users/artyom_avtaykin/CLionProjects/xml_editor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,48 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named xml
+# Target rules for targets named xml_editor
 
 # Build rule for target.
-xml: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xml
-.PHONY : xml
+xml_editor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xml_editor
+.PHONY : xml_editor
 
 # fast build rule for target.
-xml/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/build
-.PHONY : xml/fast
+xml_editor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/build
+.PHONY : xml_editor/fast
+
+db.o: db.cpp.o
+.PHONY : db.o
+
+# target to build an object file
+db.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/db.cpp.o
+.PHONY : db.cpp.o
+
+db.i: db.cpp.i
+.PHONY : db.i
+
+# target to preprocess a source file
+db.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/db.cpp.i
+.PHONY : db.cpp.i
+
+db.s: db.cpp.s
+.PHONY : db.s
+
+# target to generate assembly for a file
+db.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/db.cpp.s
+.PHONY : db.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +166,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,15 +174,39 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+sqlite3.o: sqlite3.c.o
+.PHONY : sqlite3.o
+
+# target to build an object file
+sqlite3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/sqlite3.c.o
+.PHONY : sqlite3.c.o
+
+sqlite3.i: sqlite3.c.i
+.PHONY : sqlite3.i
+
+# target to preprocess a source file
+sqlite3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/sqlite3.c.i
+.PHONY : sqlite3.c.i
+
+sqlite3.s: sqlite3.c.s
+.PHONY : sqlite3.s
+
+# target to generate assembly for a file
+sqlite3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/sqlite3.c.s
+.PHONY : sqlite3.c.s
 
 tinyxml2.o: tinyxml2.cpp.o
 .PHONY : tinyxml2.o
 
 # target to build an object file
 tinyxml2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/tinyxml2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/tinyxml2.cpp.o
 .PHONY : tinyxml2.cpp.o
 
 tinyxml2.i: tinyxml2.cpp.i
@@ -166,7 +214,7 @@ tinyxml2.i: tinyxml2.cpp.i
 
 # target to preprocess a source file
 tinyxml2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/tinyxml2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/tinyxml2.cpp.i
 .PHONY : tinyxml2.cpp.i
 
 tinyxml2.s: tinyxml2.cpp.s
@@ -174,7 +222,7 @@ tinyxml2.s: tinyxml2.cpp.s
 
 # target to generate assembly for a file
 tinyxml2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/tinyxml2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/tinyxml2.cpp.s
 .PHONY : tinyxml2.cpp.s
 
 xml_editor.o: xml_editor.cpp.o
@@ -182,7 +230,7 @@ xml_editor.o: xml_editor.cpp.o
 
 # target to build an object file
 xml_editor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/xml_editor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/xml_editor.cpp.o
 .PHONY : xml_editor.cpp.o
 
 xml_editor.i: xml_editor.cpp.i
@@ -190,7 +238,7 @@ xml_editor.i: xml_editor.cpp.i
 
 # target to preprocess a source file
 xml_editor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/xml_editor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/xml_editor.cpp.i
 .PHONY : xml_editor.cpp.i
 
 xml_editor.s: xml_editor.cpp.s
@@ -198,7 +246,7 @@ xml_editor.s: xml_editor.cpp.s
 
 # target to generate assembly for a file
 xml_editor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/xml_editor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/xml_editor.cpp.s
 .PHONY : xml_editor.cpp.s
 
 # Help Target
@@ -209,10 +257,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... xml"
+	@echo "... xml_editor"
+	@echo "... db.o"
+	@echo "... db.i"
+	@echo "... db.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sqlite3.o"
+	@echo "... sqlite3.i"
+	@echo "... sqlite3.s"
 	@echo "... tinyxml2.o"
 	@echo "... tinyxml2.i"
 	@echo "... tinyxml2.s"

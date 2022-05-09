@@ -10,7 +10,7 @@
 
 class Xml_editor {
 public:
-    const char * get(char * element);
+    const char * get(const char * element);
     bool set(const char*  name, const char* content);
 };
 

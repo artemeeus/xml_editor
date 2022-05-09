@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug"/>
+				<Option working_dir="/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug"/>
+				<Option working_dir="/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug"/>
+				<Option working_dir="/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="xml">
-				<Option output="/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/xml" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug"/>
+			<Target title="main.cpp">
+				<Option output="/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/main.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 xml"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.cpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="xml/fast">
-				<Option output="/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/xml" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug"/>
+			<Target title="main.cpp/fast">
+				<Option output="/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/main.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,29 +73,38 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 xml/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml/main.cpp">
-			<Option target="xml"/>
+		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml_editor/db.cpp">
+			<Option target="main.cpp"/>
 		</Unit>
-		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml/tinyxml2.cpp">
-			<Option target="xml"/>
+		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml_editor/db.h">
+			<Option target="main.cpp"/>
 		</Unit>
-		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml/tinyxml2.h">
-			<Option target="xml"/>
+		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml_editor/sqlite3.c">
+			<Option target="main.cpp"/>
 		</Unit>
-		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml/xml_editor.cpp">
-			<Option target="xml"/>
+		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml_editor/sqlite3.h">
+			<Option target="main.cpp"/>
 		</Unit>
-		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml/xml_editor.h">
-			<Option target="xml"/>
+		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml_editor/tinyxml2.cpp">
+			<Option target="main.cpp"/>
 		</Unit>
-		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml/CMakeLists.txt">
+		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml_editor/tinyxml2.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml_editor/xml_editor.cpp">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml_editor/xml_editor.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/Users/artyom_avtaykin/CLionProjects/xml_editor/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

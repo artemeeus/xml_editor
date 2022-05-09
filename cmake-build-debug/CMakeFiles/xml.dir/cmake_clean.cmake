@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/xml.dir/db.cpp.o"
   "CMakeFiles/xml.dir/main.cpp.o"
   "CMakeFiles/xml.dir/tinyxml2.cpp.o"
   "CMakeFiles/xml.dir/xml_editor.cpp.o"

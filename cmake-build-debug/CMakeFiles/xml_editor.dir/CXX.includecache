@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/artyom_avtaykin/CLionProjects/xml_editor/db.cpp
+db.h
+/Users/artyom_avtaykin/CLionProjects/xml_editor/db.h
+
+/Users/artyom_avtaykin/CLionProjects/xml_editor/db.h
+sqlite3.h
+/Users/artyom_avtaykin/CLionProjects/xml_editor/sqlite3.h
+sstream
+-
+iostream
+-
+vector
+/Users/artyom_avtaykin/CLionProjects/xml_editor/vector
+
+/Users/artyom_avtaykin/CLionProjects/xml_editor/sqlite3.h
+stdarg.h
+-
+

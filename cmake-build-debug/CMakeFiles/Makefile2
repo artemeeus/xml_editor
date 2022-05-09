@@ -54,16 +54,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/artyom_avtaykin/CLionProjects/xml
+CMAKE_SOURCE_DIR = /Users/artyom_avtaykin/CLionProjects/xml_editor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/xml.dir/all
+all: CMakeFiles/xml_editor.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/xml.dir/clean
+clean: CMakeFiles/xml_editor.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/xml.dir
+# Target rules for target CMakeFiles/xml_editor.dir
 
 # All Build rule for target.
-CMakeFiles/xml.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target xml"
-.PHONY : CMakeFiles/xml.dir/all
+CMakeFiles/xml_editor.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target xml_editor"
+.PHONY : CMakeFiles/xml_editor.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/xml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/xml.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artyom_avtaykin/CLionProjects/xml/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/xml.dir/rule
+CMakeFiles/xml_editor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/xml_editor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artyom_avtaykin/CLionProjects/xml_editor/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/xml_editor.dir/rule
 
 # Convenience name for target.
-xml: CMakeFiles/xml.dir/rule
-.PHONY : xml
+xml_editor: CMakeFiles/xml_editor.dir/rule
+.PHONY : xml_editor
 
 # clean rule for target.
-CMakeFiles/xml.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml.dir/build.make CMakeFiles/xml.dir/clean
-.PHONY : CMakeFiles/xml.dir/clean
+CMakeFiles/xml_editor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xml_editor.dir/build.make CMakeFiles/xml_editor.dir/clean
+.PHONY : CMakeFiles/xml_editor.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
